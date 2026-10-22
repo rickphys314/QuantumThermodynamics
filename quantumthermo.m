@@ -170,7 +170,7 @@ paso3=paso2 . IdentityMatrix[4]//FullSimplify;
 paso4=paso3 . lcpauli//FullSimplify;
 Chop[ideal=paso4//FullSimplify,10^-10]]
 (* }}} *)
-(*random*)
+(*random1*)
 
 End[];
 

@@ -1,5 +1,7 @@
+(* ::Package:: *)
 
 (* ::Package:: *)
+(**)
 
 
 (* {{{ *)BeginPackage["Quantumthermo`",{"Carlos`", "Quantum`","Quantum2`"}];
@@ -13,7 +15,7 @@ DaviesMapUnitBasis[H_, \[Beta]_, t_, \[Gamma]_]::usage="DaviesMapUnitBasis[H_, \
 
 Begin["`Private`"];
 
-(* {{{ Implementación privada *)
+(* {{{ Implementaci\[OAcute]n privada *)
 
 Daviesgen[H_, \[Beta]_, \[Gamma]m_][\[Rho]_] :=
   Module[{\[Sigma]p, \[Sigma]m, vals, vecs, \[Omega]},
@@ -85,7 +87,7 @@ DaviesMapUnitBasis[H_, \[Beta]_, t_, \[Gamma]_] :=
    Re;
 
 (* }}} *)
-
+(*random*)
 End[];
 
 EndPackage[];
